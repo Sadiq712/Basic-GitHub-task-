@@ -1,0 +1,451 @@
+{
+  "id": "47420fe6-27d1-4143-9057-7c6eecf0c9c2",
+  "version": "2.0",
+  "name": "KONGA PROJECT",
+  "url": "https://www.konga.com/",
+  "tests": [{
+    "id": "d87eb20b-afd2-42c5-865f-cfe836e1254a",
+    "name": "INVALID CARD PAYMENT",
+    "commands": [{
+      "id": "fcbf3f8f-c8ea-4821-9580-438a458066bd",
+      "comment": "VISIT KONGA URL",
+      "command": "open",
+      "target": "https://www.konga.com/product/apple-macbook-air-13-256gb-apple-m1-8gb-ram-space-gray-mgn63b-a-2020-6772513?seller_id=181197&sku_id=6772513&sclid=jTBTJWU6SIOLokdPLZ7hRNKvvHTyJgla",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7962e195-3f41-4df0-824d-f90865f342d4",
+      "comment": "ADJUST SCREEN SIZE",
+      "command": "setWindowSize",
+      "target": "1366x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feeaf03b-84e5-45f3-80a3-bd0e136c7af1",
+      "comment": "NAVIGATE TO LOGIN/SIGNUP",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/product/apple-macbook-air-13-256gb-apple-m1-8gb-ram-space-gray-mgn63b-a-2020-6772513')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71a61872-addb-4a5f-a6b5-fcb7cc108480",
+      "comment": "CLICK LOGIN",
+      "command": "mouseOver",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/product/apple-macbook-air-13-256gb-apple-m1-8gb-ram-space-gray-mgn63b-a-2020-6772513')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "430a1ea2-4b37-40c1-ad8a-748314fb2ae0",
+      "comment": "SUCCESSFUL LOGIN ",
+      "command": "mouseOut",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/product/apple-macbook-air-13-256gb-apple-m1-8gb-ram-space-gray-mgn63b-a-2020-6772513')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04b751f-4f66-45fe-88fb-feb0b2a284c6",
+      "comment": "SELECT COMPUTER AND ACCESSORIES",
+      "command": "click",
+      "target": "linkText=Login / Signup",
+      "targets": [
+        ["linkText=Login / Signup", "linkText"],
+        ["css=.DesktopNavigation_authLink__Zpjyj > .DesktopNavigation_searchBandIconLink__Nreez", "css:finder"],
+        ["xpath=//a[contains(text(),'Login / Signup')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login?return_url=/product/apple-macbook-air-13-256gb-apple-m1-8gb-ram-space-gray-mgn63b-a-2020-6772513')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login / Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dda1bf-dc6a-4afb-b54b-7e0914050d90",
+      "comment": "SELECT LAPTOP ",
+      "command": "executeScript",
+      "target": "document.getElementById(\"username\")",
+      "targets": [],
+      "value": "olatunjibalogun080@gmail.com"
+    }, {
+      "id": "dcb9c62e-af89-473f-8ef1-bce9c0ad2977",
+      "comment": "HOVER ON APPLE MAC BOOK ",
+      "command": "executeScript",
+      "target": "document.getElementById(\"password\")",
+      "targets": [],
+      "value": "Sadiq_1000"
+    }, {
+      "id": "2d5b4a2d-7f8e-4274-a759-c7fed9d9e7f1",
+      "comment": "SELECT APPLE MACBOOK ",
+      "command": "click",
+      "target": "css=.loginForm_loginButton__aq55S",
+      "targets": [
+        ["css=.loginForm_loginButton__aq55S", "css:finder"],
+        ["xpath=(//button[@type='submit'])[11]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3311e854-0feb-4936-b0f8-af73e66f81c9",
+      "comment": "DOUBLE CLICK ",
+      "command": "mouseOver",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef6675c-4624-49d6-8e89-ca4f16a6122c",
+      "comment": "SELECT PREFERRED LAPTOP ",
+      "command": "mouseOver",
+      "target": "linkText=Computers and Accessories",
+      "targets": [
+        ["linkText=Computers and Accessories", "linkText"],
+        ["css=.DesktopNavigation_navItem__TBbw6:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/computers-accessories-5227')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7190008-27bb-4fcb-ae26-68808cf580c1",
+      "comment": "ADD TO CART ",
+      "command": "verifyElementPresent",
+      "target": "linkText=Macbooks",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "390853c2-be1a-4f0a-98d0-f0d0ad2ed596",
+      "comment": "OPEN MY CART",
+      "command": "click",
+      "target": "linkText=Macbooks",
+      "targets": [
+        ["linkText=Macbooks", "linkText"],
+        ["css=.DesktopNavigation_subCategorySection__H95KA:nth-child(1) > .DesktopNavigation_subCategorySectionChild__5kEvf:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Macbooks')]", "xpath:link"],
+        ["xpath=//div[@id='subFixId']/div/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/macbooks-5249')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Macbooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab148f01-847c-49c4-957f-6278004e25d7",
+      "comment": "CLICK CHECKOUT ",
+      "command": "click",
+      "target": "css=.carousel_carouselArrowLeft__e3c_z > svg",
+      "targets": [
+        ["css=.carousel_carouselArrowLeft__e3c_z > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e2d8f5-e904-4c59-8e9d-9e793b1e9e3f",
+      "comment": "REDIRECTED TO CHECKPOINT",
+      "command": "click",
+      "target": "css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardProductName___xN6_",
+      "targets": [
+        ["css=.ListingComponent_salesAIAdsCarouselItem__Tjbn0:nth-child(1) .RecommendationsCard_recCardProductName___xN6_", "css:finder"],
+        ["xpath=//main[@id='mainContent']/section/section/section/section/section/section/div/div/div/div/div/a/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//a/div[2]/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c07f0f3-1bd2-499d-adfd-a13606717d0e",
+      "comment": "CHOOSE DELIVERY OPTION ",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d67f2ba0-be6a-404c-9083-042425b304ed",
+      "comment": "SELECT CHANGE",
+      "command": "click",
+      "target": "css=.productDetail_productCtaSticky__71e8u > .button_button__cpnXl",
+      "targets": [
+        ["css=.productDetail_productCtaSticky__71e8u > .button_button__cpnXl", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[3]/div/div/div/div[2]/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e199a8f-ffe1-406f-a907-a7087b02f349",
+      "comment": "INPUT PREFERRED ADDRESS",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ab7d3f7-6391-43a6-bec1-ff7a30de19f1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=nav:nth-child(1) > .flashBanner_flashBanner__COVRr .asset_imageCover__ttp_S",
+      "targets": [
+        ["css=nav:nth-child(1) > .flashBanner_flashBanner__COVRr .asset_imageCover__ttp_S", "css:finder"],
+        ["xpath=//img[@alt='CerAwards']", "xpath:img"],
+        ["xpath=//section[@id='app-content-wrapper']/div[2]/nav/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/nav/div/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7678c61-cf4a-42d0-9bb8-7c1992e2b0a6",
+      "comment": "SAVE ADDRESS",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0d8a73e-243a-4c43-8747-99317172a3ea",
+      "comment": "REDIRECT TO DELIVERY OPTIONS",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87f7873d-5f2a-4e21-8d1b-ddf6df380ace",
+      "comment": "SELECT DELIVERTO ME ",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be1ba813-ebf6-4100-8a58-a1e4f191ca3e",
+      "comment": "WAIT FOR IT TO LOAD",
+      "command": "click",
+      "target": "linkText=Continue to Checkout",
+      "targets": [
+        ["linkText=Continue to Checkout", "linkText"],
+        ["css=.button_success__sLUz_:nth-child(1) > .button_button__cpnXl", "css:finder"],
+        ["xpath=(//a[contains(text(),'Continue to Checkout')])[2]", "xpath:link"],
+        ["xpath=//main[@id='mainContent']/div/div[2]/div[4]/div/div[6]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/complete-order')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94f0bdea-13d4-4ce8-b6e6-b382839bd85b",
+      "comment": "SELECT THE SAVED ADDRESS",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93242504-264e-499a-8779-01573e47e90c",
+      "comment": "CONFIRM CORRECT ADDRESS SELECTED",
+      "command": "click",
+      "target": "css=.deliveryOptionCard_active__Vhe_4 .button_button__cpnXl",
+      "targets": [
+        ["css=.deliveryOptionCard_active__Vhe_4 .button_button__cpnXl", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section/div/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Delivery Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d242dc-e401-460e-98c5-068816b2b6b8",
+      "comment": "NAVIGATE TO PAYMENT OPTIONS",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73ecc826-b6fc-42e9-8ad0-3d2961f44c3b",
+      "comment": "SELECT PAY NOW",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74402823-ef5e-4cd2-9aca-ff5794e28175",
+      "comment": "CONFIRM OPTION SELECTED",
+      "command": "click",
+      "target": "css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input",
+      "targets": [
+        ["css=.paymentOptions_paymentOptionsContentPayNowHeader__eiuIT input", "css:finder"],
+        ["xpath=//input[@value='kpaygateway']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9530e195-9da6-4562-b812-0479a1b63a0b",
+      "comment": "SCROLL DOWN",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c422d700-0a8a-4d0d-a2f4-86590236faeb",
+      "comment": "CLICK CONTINUE TO PAYMENT ",
+      "command": "click",
+      "target": "name=placeOrder",
+      "targets": [
+        ["name=placeOrder", "name"],
+        ["css=.checkout_placeOrderButton__yJwNl", "css:finder"],
+        ["xpath=//button[@name='placeOrder']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue to Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9af39dee-4b35-436d-9aca-ebf7e764a876",
+      "comment": "IFRAME POP OUT",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6038b4b-033e-42d7-bf94-830b4051cbf9",
+      "comment": "SELECT PAYMENT METHOD OPTIONS",
+      "command": "click",
+      "target": "name=placeOrder",
+      "targets": [
+        ["name=placeOrder", "name"],
+        ["css=.checkout_placeOrderButton__yJwNl", "css:finder"],
+        ["xpath=//button[@name='placeOrder']", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div/div[3]/div/section[2]/div/div[2]/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue to Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5c5ea3-f3b9-499d-befd-044aedcfb3fa",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0e35b4-b6ba-4166-96a6-884a597d3fac",
+      "comment": "SELECT CARD ",
+      "command": "click",
+      "target": "css=.Card .payment-option-info",
+      "targets": [
+        ["css=.Card .payment-option-info", "css:finder"],
+        ["xpath=//div[@id='channel-template']/div[2]/div/div[3]/button/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c345cf22-46af-4357-acd4-87364c2db1df",
+      "comment": "INPUT INVALID CARD DETAILS",
+      "command": "click",
+      "target": "id=card-number",
+      "targets": [
+        ["id=card-number", "id"],
+        ["css=#card-number", "css:finder"],
+        ["xpath=//input[@id='card-number']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2173ed-9f55-4b15-a995-3ab651a52c9f",
+      "comment": "CONFIRM CARD VALIDITY ",
+      "command": "type",
+      "target": "id=card-number",
+      "targets": [
+        ["id=card-number", "id"],
+        ["css=#card-number", "css:finder"],
+        ["xpath=//input[@id='card-number']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2643 6752 3656 4"
+    }, {
+      "id": "5ef4a3c3-c017-4bfe-bacf-7ca1be9adf9d",
+      "comment": "TYPE DEBIT CARD NUMBER",
+      "command": "click",
+      "target": "id=expiry",
+      "targets": [
+        ["id=expiry", "id"],
+        ["css=#expiry", "css:finder"],
+        ["xpath=//input[@id='expiry']", "xpath:attributes"],
+        ["xpath=//div[@id='card-exists--false']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6f3654-7bf8-4035-a2f7-2ca6f5cc8a2a",
+      "comment": "CONFIRM INVALID CARD NUMBER ",
+      "command": "click",
+      "target": "id=card-number_unhappy",
+      "targets": [
+        ["id=card-number_unhappy", "id"],
+        ["css=#card-number_unhappy", "css:finder"],
+        ["xpath=//label[@id='card-number_unhappy']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Invalid card number')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7521ecf-d9fe-4845-b232-0d3703725413",
+      "comment": "CLOSE IFRAME",
+      "command": "verifyText",
+      "target": "id=card-number_unhappy",
+      "targets": [
+        ["id=card-number_unhappy", "id"],
+        ["css=#card-number_unhappy", "css:finder"],
+        ["xpath=//label[@id='card-number_unhappy']", "xpath:attributes"],
+        ["xpath=//div[@id='input-card-no-container']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Invalid card number')]", "xpath:innerText"]
+      ],
+      "value": "Invalid card number"
+    }, {
+      "id": "71755a0f-7776-45b7-96a2-9ed56d0b7c7e",
+      "comment": "END RECORDING",
+      "command": "click",
+      "target": "css=.data-card__close",
+      "targets": [
+        ["css=.data-card__close", "css:finder"],
+        ["xpath=//aside[@onclick='UIHelper.returnToMerchantPage()']", "xpath:attributes"],
+        ["xpath=//aside", "xpath:position"],
+        ["xpath=//aside[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "097fdd8d-f3cf-4d4c-a0ec-2812c5cd4e9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d87eb20b-afd2-42c5-865f-cfe836e1254a"]
+  }],
+  "urls": ["https://www.konga.com/"],
+  "plugins": []
+}
